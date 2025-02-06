@@ -5,21 +5,6 @@ This repository is designed for practicing and learning **ArgoCD**, a declarativ
 ---
 
 ## 📂 Repository Structure
-Applications/
-├── Helm/
-│   ├── nginx/
-│   │   ├── templates/
-│   │   │   ├── <Helm template files>
-│   │   ├── Chart.yaml
-│   │   ├── values.yaml
-│   │   ├── custom-values.yaml
-│   ├── .helmignore
-├── directoryOfManifests/
-│   ├── deployment.yaml
-│   ├── service.yaml
-│   ├── serviceaccount.yaml
-│   ├── test-connection.yaml
-
 
 - **Helm/nginx**: Contains a Helm chart for deploying an NGINX application. Includes custom values and templates to manage deployments.
 - **directoryOfManifests**: Contains Kubernetes YAML manifests for various resources such as deployments, services, and service accounts.
